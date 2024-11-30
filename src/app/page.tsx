@@ -1,7 +1,7 @@
-import Header from "@/features/header";
-import MainPage from "@/features/main-page";
-import ScrollToTop from "@/features/scroll-to-top";
-import SocialMedia from "@/features/social-media";
+import Header from "@/features/home/header";
+import MainPage from "@/features/home/main-page";
+import ScrollToTop from "@/features/home/scroll-to-top";
+import SocialMedia from "@/features/home/social-media";
 
 export default function Home() {
   return (

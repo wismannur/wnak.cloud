@@ -12,10 +12,12 @@ export default async function LinkPage({
   const findLink = MY_LINKS.find((item) => pathname === item.id);
 
   if (!findLink) {
-    redirect("/");
+    redirect("https://wismannur.pro/");
+  } else {
+    redirect(findLink.href);
   }
 
-  const destination = findLink.href;
+  // const destination = findLink.href;
 
-  return <CountdownRedirect destination={destination} text={findLink.text} />;
+  // return <CountdownRedirect destination={destination} text={findLink.text} />;
 }

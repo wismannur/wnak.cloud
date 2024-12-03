@@ -32,4 +32,10 @@ export const MY_LINKS = [
     text: "LinkedIn",
     href: "https://linkedin.com/in/wismannur/?ref=wnak.cloud",
   },
+  {
+    id: "stack-overflow",
+    icon: LuLinkedin,
+    text: "Stack Overflow",
+    href: "https://stackoverflow.com/users/9388550/wisman-nur-abdul-kholik/?ref=wnak.cloud",
+  },
 ];
